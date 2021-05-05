@@ -113,6 +113,9 @@ The number of sections. This indicates the size of the section table, which imme
 The low 32 bits of the time stamp of the image. This represents the date and time the image was created by 
       the linker. The value is represented in the number of seconds elapsed since midnight (00:00:00), January 1, 
       1970, Universal Coordinated Time, according to the system clock.
+      
+This field is impacted by the compiler's  
+<a href="https://github.com/dotnet/roslyn/blob/main/docs/compilers/Deterministic%20Inputs.md">deterministic flag setting</a> 
 
 ### -field PointerToSymbolTable
 
